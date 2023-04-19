@@ -55,6 +55,5 @@ if [ "$is_latest" -eq "0" ]; then
     write_log "Update available. Trying to download and install"
     download_and_install_package
 else
-
     write_log "No updates available"
 fi
