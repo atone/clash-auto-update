@@ -54,6 +54,7 @@ if [ "$is_latest" -eq "0" ]; then
     write_log "Latest available version: ${latest_release_tag}"
     write_log "Update available. Trying to download and install"
     download_and_install_package
+    write_log "Update installed successfully"
 else
     write_log "No updates available"
 fi
